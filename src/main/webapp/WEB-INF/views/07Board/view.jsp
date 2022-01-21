@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 <meta charset="UTF-8">
@@ -45,10 +45,10 @@
 			</td>
 		</tr>		
 		<tr>
-			<td colspan="4" align="center">	
+<%-- 			<td colspan="4" align="center">	
 			<button type="button" 
 				onclick="location.href='./reply.do?idx=${viewRow.idx}&nowPage=${nowPage }';">
-				답변글달기</button>
+				답변글달기</button> --%>
 			
 			<button type="button" 
 				onclick="location.href='./password.do?idx=${viewRow.idx}&mode=edit&nowPage=${nowPage }';">
